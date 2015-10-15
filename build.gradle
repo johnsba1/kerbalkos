@@ -1,0 +1,20 @@
+
+
+apply plugin: "java"
+
+group 'com.bj.ksp'
+version '1.0-SNAPSHOT'
+
+
+
+repositories{
+    mavenCentral()
+}
+
+dependencies{
+    compile 'commons-net:commons-net:3.3'
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.google.code.gson:gson:2.4'
+    compile 'commons-beanutils:commons-beanutils:1.9.2'
+
+}
